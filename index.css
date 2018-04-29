@@ -39,7 +39,7 @@
 	height: 15vh;
 }
 #scroll{
-	height: 82vh;
+	height: 81.5vh;
 	overflow-y: scroll;
 }
 ::-webkit-scrollbar {
