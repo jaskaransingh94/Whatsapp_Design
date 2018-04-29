@@ -1,0 +1,103 @@
+/*  .body{
+	overflow-x: hidden;
+} */
+.profile_image{
+	height: 35px;
+	width: 35px;
+	margin-right: 2vh;
+}
+.profile_image_modal{
+	height: 30vh;
+	width: 30vh;
+	margin-right: 2vh;
+	margin: 2vh
+}
+
+.edit_profile{
+	border: thin;
+	background-color: #ffffff;
+	border-color: #17202A;
+	margin-bottom: 2vh
+}
+.modal_body1{
+	font-size: 1rem;
+	color: green;
+}
+.modal_body2{
+	font-size: 1.3rem;
+	color: #17202A ;
+	font-weight: 300;
+}
+.navbar{
+	background-color: #E5E8E8;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.chat-row{
+	height: 15vh;
+}
+#scroll{
+	height: 82vh;
+	overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.chat_row{
+	background-color: #ffffff;
+	width: 30%;
+	margin-top: 1vh;
+	margin-left: 5vw;
+	padding: 0.3vh;
+}
+.chat_row1{
+	background-color: #D5F5E3  ;
+	width: 30%;
+	margin-top: 2vh;
+	margin-left: 50vw;
+	padding: 0.3vh;
+	margin-bottom: 1vh;
+}
+.time{
+    color: #aaa;
+    font-size: 0.6rem;
+}
+#chat_window{
+	background-color: #ABB2B9  ;
+	height: 90vh;
+	overflow-y: scroll;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color:#E5E8E8; 
+  }
+  
+#w_image{height: 100vh; width: 100vw}
+
+button:focus {
+    outline: 0 !important;
+}
+
+.back{
+	border: none; 
+	background-color:#E5E8E8;
+	padding: 0;
+	cursor: pointer;
+}
